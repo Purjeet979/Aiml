@@ -48,7 +48,7 @@ export default function AboutUs() {
         </h2>
 
         <p className="text-sm sm:text-base text-[#9AAEC4] text-center max-w-2xl mb-14 leading-relaxed">
-          The developers and machine learning researchers behind PlayFilter AI, built to revolutionize tennis video editing through deep learning and automated rally extraction.
+          The developers and machine learning researchers behind PlayPulse AI, built to revolutionize tennis video editing through deep learning and automated rally extraction.
         </p>
 
         {/* 3 Team Cards Grid */}
@@ -90,7 +90,7 @@ export default function AboutUs() {
 
               {/* Bottom Tech Stamp */}
               <div className="pt-4 mt-6 border-t border-sky-400/10 flex items-center justify-between text-[11px] font-mono text-[#9AAEC4]/60">
-                <span>PlayFilter AI Contributor</span>
+                <span>PlayPulse AI Contributor</span>
                 <Sparkles className="w-3 h-3 text-[#00D5F2]" />
               </div>
             </div>

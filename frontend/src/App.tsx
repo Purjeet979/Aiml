@@ -102,7 +102,7 @@ export default function App() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-cinematic font-bold tracking-wider text-base sm:text-lg text-[#F3F7FC] group-hover:text-[#00D5F2] transition-colors">
-                  PLAYFILTER AI
+                  PLAYPULSE AI
                 </span>
                 <span className="hidden sm:inline-block text-[10px] font-mono px-2 py-0.5 rounded bg-[#0A1930] text-[#9AAEC4] border border-white/5 uppercase">
                   Tennis Broadcast Suite
@@ -162,7 +162,7 @@ export default function App() {
 
           {/* Clean Sports-Tech Footer */}
           <footer className="relative z-10 border-t border-sky-400/10 py-6 text-center text-[#9AAEC4] text-xs font-mono mt-auto bg-[#040E1E]">
-            <p className="text-[#9AAEC4]">PlayFilter AI — Automated tennis broadcast rally extraction & dead-time elimination.</p>
+            <p className="text-[#9AAEC4]">PlayPulse AI — Automated tennis broadcast rally extraction & dead-time elimination.</p>
             <p className="mt-1.5 text-[#9AAEC4]/60">PyTorch · ResNet-18 Deep Learning · OpenCV · FastAPI · React</p>
           </footer>
         </div>

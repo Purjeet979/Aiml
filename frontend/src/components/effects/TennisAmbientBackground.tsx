@@ -49,7 +49,7 @@ export default function TennisAmbientBackground() {
       {/* 4. Subtle Broadcast Status Markers */}
       <div className="absolute top-20 left-8 text-[11px] font-mono tracking-widest text-[#9AAEC4]/30 select-none hidden xl:block">
         <div>BROADCAST · COURT 01</div>
-        <div>PLAYFILTER AI ENGINE</div>
+        <div>PLAYPULSE AI ENGINE</div>
       </div>
 
       <div className="absolute top-20 right-8 text-[11px] font-mono tracking-widest text-[#9AAEC4]/30 select-none hidden xl:block text-right">

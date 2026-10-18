@@ -59,8 +59,8 @@ def handle_video(video_path, progress=gr.Progress(track_tqdm=True)):
     playing_vid, *_ = process_video(video_path, output_dir, weights_path=weights_path)
     return playing_vid
 
-with gr.Blocks(css=custom_css, title="PLAYFILTER AI") as app:
-    gr.Markdown("# 🎾 PLAYFILTER AI")
+with gr.Blocks(css=custom_css, title="PlayPulse AI") as app:
+    gr.Markdown("# 🎾 PlayPulse AI")
     gr.Markdown("Upload a tennis video and our AI will extract only the playing segments for you.")
     
     with gr.Row():

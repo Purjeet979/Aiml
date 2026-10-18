@@ -26,7 +26,7 @@ export default function LandingPage({ onUploadClick }: { onUploadClick: () => vo
         </h2>
         
         <p className="text-sm sm:text-base text-[#9AAEC4] max-w-xl mb-8 leading-relaxed">
-          Upload any match broadcast footage. PlayFilter AI will filter out all non-play footage and deliver clean, action-only highlight reels in minutes.
+          Upload any match broadcast footage. PlayPulse AI will filter out all non-play footage and deliver clean, action-only highlight reels in minutes.
         </p>
 
         <button 

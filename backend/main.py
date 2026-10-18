@@ -6,7 +6,7 @@ from fastapi.responses import JSONResponse, FileResponse
 import uuid
 from video_play_filter import process_video
 
-app = FastAPI(title="PLAYFILTER AI")
+app = FastAPI(title="PlayPulse AI")
 
 # Enable CORS for React frontend
 app.add_middleware(

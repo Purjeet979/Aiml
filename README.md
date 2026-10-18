@@ -1,4 +1,4 @@
-# 🎾 PLAYFILTER AI — Smart Tennis Match Highlight Generator & Rally Filter
+# 🎾 PLAYPULSE AI — Smart Tennis Match Highlight Generator & Rally Filter
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -10,7 +10,7 @@
 
 An end-to-end Deep Learning and Computer Vision pipeline designed to automatically analyze full-length broadcast tennis matches, separating active rally frames (**Play**) from downtime (**Non-Play**—crowd shots, player close-ups, breaks, and commercial intervals). 
 
-PLAYFILTER AI stitches high-action frames into an uninterrupted, broadcast-grade highlight reel, significantly reducing match review time.
+PLAYPULSE AI stitches high-action frames into an uninterrupted, broadcast-grade highlight reel, significantly reducing match review time.
 
 ---
 
