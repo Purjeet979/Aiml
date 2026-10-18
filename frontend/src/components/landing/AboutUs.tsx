@@ -17,7 +17,7 @@ const teamMembers: TeamMember[] = [
     initials: 'PS'
   },
   {
-    name: 'Kansha Vanjkre',
+    name: 'Kanksha Vanjare',
     role: 'Computer Vision & Data Systems',
     tag: 'CV Research',
     contributions: 'Curated and annotated the broadcast rally dataset, implemented court-lighting data augmentations, and optimized frame classification accuracy.',
