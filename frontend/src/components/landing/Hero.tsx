@@ -31,12 +31,27 @@ export default function Hero({ onUploadClick }: { onUploadClick: () => void }) {
       </div>
 
       <div className="z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center pt-16 sm:pt-20">
+        {/* PlayPulse Neon Logo Emblem */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="relative mb-6 group"
+        >
+          <div className="absolute -inset-3 bg-[#00D5F2]/25 rounded-3xl blur-xl group-hover:bg-[#00D5F2]/40 transition-all duration-500 pointer-events-none" />
+          <img 
+            src="/logo.png" 
+            alt="PlayPulse Logo" 
+            className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover border-2 border-sky-400/40 shadow-2xl shadow-[#00D5F2]/30 group-hover:scale-105 transition-transform duration-300" 
+          />
+        </motion.div>
+
         {/* Sports-Tech Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-sky-400/20 bg-[#0A1930]/85 mb-8 backdrop-blur-md shadow-sm"
+          className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-sky-400/20 bg-[#0A1930]/85 mb-8 backdrop-blur-md shadow-sm"
         >
           <ScanSearch className="w-4 h-4 text-[#00D5F2]" />
           <span className="text-xs font-mono font-medium tracking-wider text-[#F3F7FC] uppercase">

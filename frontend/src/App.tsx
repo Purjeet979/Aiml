@@ -7,7 +7,7 @@ import VideoPreview from './components/VideoPreview';
 import ProcessingView from './components/ProcessingView';
 import ResultsView, { type VideoStats } from './components/ResultsView';
 import TennisAmbientBackground from './components/effects/TennisAmbientBackground';
-import { LayoutDashboard } from 'lucide-react';
+
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8080';
 
@@ -97,9 +97,11 @@ export default function App() {
           {/* Compact Professional Sports-Tech Navbar */}
           <nav className="fixed top-0 w-full z-40 h-16 bg-[#061326]/90 backdrop-blur-md border-b border-sky-400/10 px-6 sm:px-8 flex justify-between items-center transition-all duration-200">
             <div className="flex items-center gap-3 cursor-pointer group" onClick={handleReset}>
-              <div className="w-8 h-8 rounded-lg bg-[#0A1930] border border-sky-400/20 flex items-center justify-center">
-                <LayoutDashboard className="text-[#00D5F2] w-4 h-4" />
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="PlayPulse Logo" 
+                className="w-9 h-9 rounded-lg object-cover border border-sky-400/30 group-hover:border-[#00D5F2] shadow-sm shadow-[#00D5F2]/20 transition-all duration-300 group-hover:scale-105" 
+              />
               <div className="flex items-center gap-2">
                 <span className="font-cinematic font-bold tracking-wider text-base sm:text-lg text-[#F3F7FC] group-hover:text-[#00D5F2] transition-colors">
                   PLAYPULSE AI
@@ -162,6 +164,10 @@ export default function App() {
 
           {/* Clean Sports-Tech Footer */}
           <footer className="relative z-10 border-t border-sky-400/10 py-6 text-center text-[#9AAEC4] text-xs font-mono mt-auto bg-[#040E1E]">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <img src="/logo.png" alt="PlayPulse Logo" className="w-5 h-5 rounded object-cover border border-sky-400/20" />
+              <span className="text-[#F3F7FC] font-cinematic font-bold tracking-wider text-sm">PLAYPULSE AI</span>
+            </div>
             <p className="text-[#9AAEC4]">PlayPulse AI — Automated tennis broadcast rally extraction & dead-time elimination.</p>
             <p className="mt-1.5 text-[#9AAEC4]/60">PyTorch · ResNet-18 Deep Learning · OpenCV · FastAPI · React</p>
           </footer>

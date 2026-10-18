@@ -48,7 +48,7 @@ export default function UploadZone({ onFileSelect }: { onFileSelect: (file: File
       {/* 1. Page Heading */}
       <div className="w-full text-center mb-8">
         <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#0A1930] border border-sky-400/20 text-[#00D5F2] text-xs font-mono mb-3">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#00D5F2]" />
+          <img src="/logo.png" alt="PlayPulse" className="w-3.5 h-3.5 rounded object-cover" />
           <span>STAGE 01 · BROADCAST INGESTION</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-cinematic font-bold tracking-tight text-[#F3F7FC] mb-2">

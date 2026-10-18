@@ -1,4 +1,8 @@
-# 🎾 PLAYPULSE AI — Smart Tennis Match Highlight Generator & Rally Filter
+<div align="center">
+  <img src="Neon Tennis Play Emblem.png" alt="PlayPulse AI Emblem" width="160" />
+
+  # 🎾 PLAYPULSE AI — Smart Tennis Match Highlight Generator & Rally Filter
+</div>
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
