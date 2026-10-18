@@ -143,7 +143,7 @@ AIML/
    ```bash
    python main.py
    ```
-   *The API will be live at `http://127.0.0.1:8000` (Interactive docs available at `http://127.0.0.1:8000/docs`).*
+   *The API will be live at `http://127.0.0.1:8080` (Interactive docs available at `http://127.0.0.1:8080/docs`).*
 
 *(Optional)* Run the Gradio demo interface instead:
 ```bash
